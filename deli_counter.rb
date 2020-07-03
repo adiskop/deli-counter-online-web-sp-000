@@ -16,6 +16,7 @@ end
 #do |value, index| end
 
 def take_a_number(deli,name)
-  puts  "Welcome, #{name}. You are number #{deli.count} in line."
+  deli << name
+  puts  "Welcome, #{name}. You are number #{deli.length} in line."
 
 end
