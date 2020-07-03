@@ -15,4 +15,3 @@ end
 
 
 #do |value, index| end
-
