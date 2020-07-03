@@ -5,9 +5,9 @@ def line(deli)
     puts "The line is currently empty."
   else
   current line="The line is currently:"
-  deli.each.with_index(1) {|person,i|
+  deli.each.with_index(1) do |person,i|
   current_line << "#{i}. {person}"
-  }
+end
   puts current_line
 
 end
