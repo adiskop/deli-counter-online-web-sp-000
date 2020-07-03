@@ -9,8 +9,8 @@ def line(deli)
   current_line << "#{i}. {"person"}"
   }
   puts current_line
-  end
-end 
+  
+end
 end
 
 
